@@ -1,5 +1,4 @@
-{% extends "base.html" %}
-{% load i18n wagtailcore_tags %}
+{% extends "../base.html" %}
 {% load static %}
 
 <head>
@@ -253,9 +252,7 @@
 
 <div id="services" class="services-style-one-area box-layout default-padding bottom-less bg-light">
     <div class="blur-bg"></div>
-    {% for block in page.content %}
-    {% include_block block %}
-    {% endfor %}
+
     <div class="container">
         <div class="row">
             <div class="service-style-one col-lg-4 col-md-6">
