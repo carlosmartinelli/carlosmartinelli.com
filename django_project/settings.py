@@ -37,7 +37,6 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'home',
-    'streams',
     
     # wagtail
     'wagtail.contrib.forms',
