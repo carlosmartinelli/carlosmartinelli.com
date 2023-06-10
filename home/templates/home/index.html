@@ -287,6 +287,7 @@
         <div class="magnific-mix-gallery masonary">
           <div id="portfolio-grid" class="gallery-items colums-3">
 
+            {% for i in '012345'|make_list %}
             <div class="pf-item">
               <div class="overlay-content">
                 <img src="{% static 'src/img/800x600.png' %}" alt="thumb">
@@ -301,9 +302,9 @@
                 </div>
               </div>
             </div>
+            {% endfor %}
 
-
-            <div class="pf-item">
+            <!-- <div class="pf-item">
               <div class="overlay-content">
                 <img src="{% static 'src/img/800x600.png' %}" alt="thumb">
                 <div class="content">
@@ -377,7 +378,7 @@
                       class="fas fa-arrow-right"></i></a>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           </div>
         </div>
