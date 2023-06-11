@@ -96,8 +96,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "django_project.wsgi.application"
 
-CSRF_TRUSTED_ORIGINS = ['https://carlosmartinellicom-railway-production.up.railway.app']
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://www.carlosmartinelli.com',
+    'http://www.carlosmartinelli.com',
+    'https://carlosmartinelli.com',
+    'http://carlosmartinelli.com',
+]
 
 
 # Database
